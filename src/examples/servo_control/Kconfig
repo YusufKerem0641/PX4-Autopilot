@@ -1,0 +1,9 @@
+menu "Servo Control Example"
+
+config EXAMPLES_SERVO_CONTROL
+    bool "Enable Servo Control Example"
+    default n
+    help
+      Enable this example to control a servo motor connected to the main output.
+
+endmenu
